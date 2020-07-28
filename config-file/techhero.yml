@@ -22,7 +22,7 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 47.100.164.134
+    host: 127.0.0.1
     port: 6379
     password: x19961010
 
