@@ -41,6 +41,8 @@ redis:
   cache:
     expiration: 3601
 ribbon:
+  eureka:
+    enabled: true
   eager-load:
     enabled: true
     clients: techhero-auth,techhero-user-service
