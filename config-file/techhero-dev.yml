@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://panda-server:8761/eureka/
+      defaultZone: http://techhero-server:8761/eureka/
 
 server:
   tomcat:
@@ -43,7 +43,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: panda-auth,panda-user-service
+    clients: techhero-auth,techhero-user-service
   Httpclient:
     enabled: true
   OkHttp:
