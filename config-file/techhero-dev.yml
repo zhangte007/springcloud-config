@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://techhero-server:8761/eureka/
+      defaultZone: http://techhero-server:8020/eureka/
 
 server:
   tomcat:
