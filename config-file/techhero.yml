@@ -22,11 +22,11 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 127.0.0.1
+    host: 8.131.82.23
     port: 6379
 
   rabbitmq:
-    host: 127.0.0.1
+    host: 8.131.82.23
     port: 5672
     username: zhangte
     password: 123456
