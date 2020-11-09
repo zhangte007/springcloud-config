@@ -12,7 +12,7 @@ spring:
     url: jdbc:mysql://8.131.82.23:3306/panda?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: zt211995
+    password: zt2161995
     max-idle: 10
     min-idle: 5
     test-on-borrow: false
