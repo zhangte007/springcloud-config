@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://techhero-server:8761/eureka/
+      defaultZone: http://eet-server:8761/eureka/
 
 server:
   tomcat:
@@ -44,7 +44,7 @@ ribbon:
     enabled: true
   eager-load:
     enabled: true
-    clients: techhero-auth,techhero-user-service
+    clients: eet-auth,eet-user-service
   Httpclient:
     enabled: true
   OkHttp:
