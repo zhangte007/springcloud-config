@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://techhero-server:8020/eureka/
+      defaultZone: http://eet-server:8761/eureka/
 
 server:
   tomcat:
@@ -22,12 +22,12 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 127.0.0.1
+    host: 8.131.82.23
     port: 6379
     password: x19961010
 
   rabbitmq:
-    host: 127.0.0.1
+    host: 8.131.82.23
     port: 5672
     username: zhangte
     password: 123456
@@ -45,7 +45,7 @@ ribbon:
     enabled: true
   eager-load:
     enabled: true
-    clients: techhero-auth,techhero-user-service
+    clients: eet-auth,eet-user-service
   Httpclient:
     enabled: true
   OkHttp:
